@@ -11,8 +11,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Gonzalez, Limary (2025) Placeholder VISP (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001455/draft
+citation: Gonzalez, Limary (2025) 20250630_AIBS_Patchseq_Mouse (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001455/draft
 contributor:
 - affiliation: []
   email: limary.gonzalez@alleninstitute.org
@@ -22,7 +22,8 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2025-05-19T20:24:54.933170+00:00'
-description: placeholder
+description: A whole cell patch clamp dataset from Allen Institute measuring intrinsic
+  properties of excitatory projection neurons in slices of mouse visual cortex
 ethicsApproval: []
 id: DANDI:001455/draft
 identifier: DANDI:001455
@@ -30,7 +31,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001455/versions/draft/assets/
-name: Placeholder VISP
+name: 20250630_AIBS_Patchseq_Mouse
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
