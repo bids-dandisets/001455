@@ -8,9 +8,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: current clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 5029449142
+  numberOfFiles: 224
+  numberOfSubjects: 88
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - VoltageClampStimulusSeries
+  - VoltageClampSeries
+  - CurrentClampSeries
+  - CurrentClampStimulusSeries
+  - ProcessingModule
 citation: Gonzalez, Limary (2025) 20250630_AIBS_Patchseq_Mouse (Version draft) [Data
   set]. DANDI Archive. https://dandiarchive.org/dandiset/001455/draft
 contributor:
